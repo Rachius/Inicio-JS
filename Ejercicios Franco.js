@@ -3,6 +3,92 @@
 
 
 
+// Dificultad:  🟢🟡
+// // 4- Escriba un script que muestre la tabla de multiplicar de un número ingresado por pantalla, la creación de la tabla debe ser realizada con una función y mostrar solo los resultados del 1 al 10 del número elegido por el usuario.
+
+// function tablaMulti(n){
+  
+//   for (i=1; i<11; i++){
+//     console.log(n*i)
+//   }
+  
+// }
+// tablaMulti(7)
+
+
+
+
+
+
+
+// Dificultad:  🟢🟡
+// 3- Solicitar por pantalla al usuario ingresar el valor de los lados de un rectángulo, luego crear una función para calcular su perímetro y mostrarlo por pantalla.
+
+// La fórmula del perímetro  es p = 2*(a +b)
+
+
+
+// function perimetroRectangulo (l1,l2,l3,perimetro){
+//     perimetro = l1+l2+l3;
+//     console.log('El perimetro es: ' ,perimetro)
+    
+//   }
+  
+//   perimetroRectangulo (4,2,10)
+
+
+
+// // Funciones
+// Dificultad:  🟢🟡
+// 2- Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
+
+
+// function esMayuscula (cadena){
+  
+//   if(cadena === cadena.toUpperCase()){
+//     console.log('mayuscula')
+//   }
+//   else if  (cadena === cadena.toLowerCase())  {
+//     console.log('minuscula')
+//   }
+//   else { console.log('mezclado')}
+  
+// }
+
+// esMayuscula ('hola')
+
+
+
+// // // Funciones
+// // Dificultad:  🟢
+// // 1- Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es par o impar. Mostrar por pantalla el resultado devuelto por la función.
+
+// function mostrarParidad (n)
+// {
+//   if(n%2) {
+//     console.log('Es Impar')
+//     }
+//   else{
+//     console.log('Es Par')   
+//     }
+  
+// }
+//  mostrarParidad (10)
+
+
+
+
+// // Arrays
+// // Dificultad:  🟢
+// // 1- Crear un array llamado meses y que almacene el nombre de los doce meses del año. Mostrar por pantalla en forma de lista  los doce nombres del arreglo.
+
+// let meses = ['Ene','Feb','Mar','Ab','Mayo','Jun','Jul','Ago','Sep','Oct','Nov','Dic']
+// console.log(meses)
+
+
+
+
+
 
 
 

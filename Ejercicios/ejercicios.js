@@ -1,4 +1,27 @@
-// En estas primeras 6 preguntas, reemplaza `null` por la respuesta
+/class pokemon {
+  constructor (nombre, tipoPokemon,evolucion,mana)
+  this.nombre=nombre;
+  this.tipoPokemon=tipoPokemon;
+  this.evoluciones = evoluciones;
+  this.mana=mana;
+  }
+evolucionar(){
+  console.log(this.nombre + "Esta evolucionando");
+  
+}
+
+atacar(){
+  
+  console.log(this.mana - 1);
+}
+
+let charmander = new Pokemon(
+"Charmander",
+  "fuego",
+  ["charmeleon", "charizard"],
+  100
+);
+/ En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "Milei2023";
@@ -320,6 +343,9 @@ function tieneTresDigitos(numero) {
   //Escribe tu código aquí
 }
 
+
+
+
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
@@ -331,6 +357,7 @@ function doWhile(numero) {
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
+  
 }
 
 function devolverUltimoElemento(array) {
